@@ -1,0 +1,6 @@
+.number:nth-child(odd) {
+    color: red;
+}
+.number:nth-child(even) {
+    background: azure;
+}
