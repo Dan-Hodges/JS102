@@ -9,14 +9,13 @@ function largerThan (myArray, newArray) {
     }
   }
 }
-
 $(document).ready(function() {
   $('#submit').click(function() {
     arrayLarge = [];
     arrayOriginal = [];
     newArray = [];
     var myString;
-    var myOutput;
+    var myOutput = '';
     console.log("at least the click works");
     myString = $('#input').val(); 
     console.log("my string is" + myString);
